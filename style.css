@@ -102,7 +102,7 @@ padding: 10px 20px 10px 30px;
 }
 
 @media screen and (max-width: 480px) {
-  .left, .bgpic, .res_frame, .bgpic-container {
+  .left, .bgpic, .res_frame, .table {
     width: 90%;
     height: auto;
     margin: 0 auto;
@@ -114,9 +114,8 @@ padding: 10px 20px 10px 30px;
 
   .title1, .text1, .ul1 ,.li1{
     font-size: 1em;
-    margin: 10px 5px 10px 10px ;
+    margin: 10px 5px;
     text-align: justify;
-    
   }
 
   .right {
