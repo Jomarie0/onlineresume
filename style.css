@@ -1,9 +1,11 @@
 body{
   background-color: rgb(237, 236, 236);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: center;
 }
 .res_frame {
-  margin: 250px;
+  margin: 20px;
+  justify-content: center;
 }
 .title1 {
   margin: 2% 10% 1.5% 1.5%;
@@ -97,7 +99,7 @@ padding: 10px 20px 10px 30px;
   padding-top: 1px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .left, .bgpic, .res_frame, .bgpic-container {
     width: 90%;
   }
@@ -121,6 +123,7 @@ padding: 10px 20px 10px 30px;
 
   .res_frame {
     width: 90%; 
+    margin: 15px auto;
   }
 }
 
@@ -130,5 +133,6 @@ padding: 10px 20px 10px 30px;
   }
   .left, .right, .bgpic, .res_frame {
     width: 90%;
+    margin: 0px auto;
   }
 }
