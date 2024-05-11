@@ -114,8 +114,9 @@ padding: 10px 20px 10px 30px;
 
   .title1, .text1, .ul1 ,.li1{
     font-size: 1em;
-    margin: 10px 5px;
+    margin: 10px 5px 10px 10px ;
     text-align: justify;
+    
   }
 
   .right {
