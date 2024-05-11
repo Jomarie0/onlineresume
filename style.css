@@ -3,7 +3,7 @@ body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .res_frame {
-  margin: 20px;
+  margin: 250px;
 }
 .title1 {
   margin: 2% 10% 1.5% 1.5%;
@@ -12,12 +12,28 @@ body{
   margin: 20px 50px 10px 40px;
   text-align: justify;
 }
+.navbar {
+  justify-content: space-evenly; 
+  text-decoration: none;
+  text-align: right;
+  padding: 20px;
+  padding-left: 20px;
+}
 
 .bgpic {
   margin: 15px auto;
   display: block;
   max-width: 100%;
   border-radius: 12px 12px 0px 0px ;
+}
+
+.text-overlay {
+  position: absolute; 
+  top: 25%;
+  left: 50%;
+  transform: translate(-100%, -30%);
+  color: white;
+  max-width: 100%;
 }
 
 .LRframe{
@@ -41,17 +57,18 @@ body{
 .title1 {
 font-size: 1.5em;
 font-weight: bold;
-line-height: 1.2;
-margin: 0px 50px 10px 20px;
+line-height: 1.2; 
 }
 
 .text1 {
-text-indent: 1em; 
+text-indent: 1.5em; 
 }
 .con_mar{
 margin: 10px 30px 50px 30px;
 }
 tr,td{
+  font-size: medium;
+
 padding: 10px 20px 10px 30px;
 
 }
@@ -65,7 +82,9 @@ padding: 10px 20px 10px 30px;
 
 .ul1, .li1{
   color: aliceblue;
-  margin: 10px 20px 10px 10px;
+  margin: 10px 20px 5 px 10px;
+  font-size: medium;
+
 }
 .LRframe {
   display: flex;
@@ -78,19 +97,22 @@ padding: 10px 20px 10px 30px;
 .res_frame {
   width: 768px; 
   background-color: rgb(255, 255, 255);
+  margin: 0 auto;
   padding-top: 1px;
 }
 
 @media screen and (max-width: 480px) {
-  .right ,.left, .bgpic, .res_frame, .bgpic-container {
+  .left, .bgpic, .res_frame, .bgpic-container {
     width: 90%;
+    height: auto;
+    margin: 0 auto;
   }
   
   .bgpic {
     max-width: 80%;
   }
 
-  .title1, .text1 , .ul1,.li1{
+  .title1, .text1, .ul1 ,.li1{
     font-size: 1em;
     margin: 10px 5px;
     text-align: justify;
@@ -99,13 +121,15 @@ padding: 10px 20px 10px 30px;
   .right {
     max-height: 100%;
     width: 90%;
+    height: auto;
     margin: 10px auto;
     border-radius: 0px 0px 12px 12px ;
   }
 
   .res_frame {
     width: 90%; 
-    margin: 15px auto;
+    margin: 0 auto;
+    height: auto;
   }
 }
 
@@ -115,6 +139,7 @@ padding: 10px 20px 10px 30px;
   }
   .left, .right, .bgpic, .res_frame {
     width: 90%;
-    margin: 0px auto;
+    margin: 0 auto;
+    height: auto;
   }
 }
